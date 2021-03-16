@@ -19,3 +19,10 @@ C:\Users\Vitor Faccio\Source\Repos\Biblioteca_5by5\Exercicio 5by5\Exercicio 5by5
 C:\Users\Vitor Faccio\Source\Repos\Biblioteca_5by5\Exercicio 5by5\Exercicio 5by5\obj\Debug\Exercicio 5by5.csproj.CoreCompileInputs.cache
 C:\Users\Vitor Faccio\Source\Repos\Biblioteca_5by5\Exercicio 5by5\Exercicio 5by5\obj\Debug\Exercicio 5by5.exe
 C:\Users\Vitor Faccio\Source\Repos\Biblioteca_5by5\Exercicio 5by5\Exercicio 5by5\obj\Debug\Exercicio 5by5.pdb
+C:\Users\Vitor Faccio\Source\Repos\Biblioteca__5by5\Biblioteca_5by5\Exercicio 5by5\Exercicio 5by5\bin\Debug\Exercicio 5by5.exe.config
+C:\Users\Vitor Faccio\Source\Repos\Biblioteca__5by5\Biblioteca_5by5\Exercicio 5by5\Exercicio 5by5\bin\Debug\Exercicio 5by5.exe
+C:\Users\Vitor Faccio\Source\Repos\Biblioteca__5by5\Biblioteca_5by5\Exercicio 5by5\Exercicio 5by5\bin\Debug\Exercicio 5by5.pdb
+C:\Users\Vitor Faccio\Source\Repos\Biblioteca__5by5\Biblioteca_5by5\Exercicio 5by5\Exercicio 5by5\obj\Debug\Exercicio 5by5.csprojAssemblyReference.cache
+C:\Users\Vitor Faccio\Source\Repos\Biblioteca__5by5\Biblioteca_5by5\Exercicio 5by5\Exercicio 5by5\obj\Debug\Exercicio 5by5.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Faccio\Source\Repos\Biblioteca__5by5\Biblioteca_5by5\Exercicio 5by5\Exercicio 5by5\obj\Debug\Exercicio 5by5.exe
+C:\Users\Vitor Faccio\Source\Repos\Biblioteca__5by5\Biblioteca_5by5\Exercicio 5by5\Exercicio 5by5\obj\Debug\Exercicio 5by5.pdb

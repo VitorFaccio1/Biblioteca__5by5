@@ -90,15 +90,14 @@ namespace Exercicio_5by5
         static List<Cliente> CadastrarCliente(List<Cliente> listaClientes)
         {
             //FUNCAO CRIADA PARA FAZER O CADASTRO DE CLIENTES
-            string bairro, logradouro, cidade, estado, cep, telefone, nome, cpf;
+            string bairro, logradouro, cidade, estado, cep, telefone, nome, cpf, resposta;
             DateTime data;
-            long id = 1;
             int contador = 0;
 
             Cliente client = new Cliente();
             Console.WriteLine("Informe o cpf do cliente: ");
-            cpf = Console.ReadLine();
-
+            cpf = Console.ReadLine();        
+   
             //FOREACH PRA PASSAR POR TODA LISTA DE CLIENTES E VERIFICAR SE TEM UM CPF JA CADASTRADO!
             foreach (Cliente clienteCadastrado in listaClientes)
             {
