@@ -92,8 +92,8 @@ namespace Exercicio_5by5
             //FUNCAO CRIADA PARA FAZER O CADASTRO DE CLIENTES
             string bairro, logradouro, cidade, estado, cep, telefone, nome, cpf;
             DateTime data;
-            long id = 1;
             int contador = 0;
+            long ultimoId ;
 
             Cliente client = new Cliente();
             Console.WriteLine("Informe o cpf do cliente: ");
@@ -136,11 +136,21 @@ namespace Exercicio_5by5
                 estado = Console.ReadLine();
                 Console.WriteLine("Informe o Cep: ");
                 cep = Console.ReadLine();
-                Console.Clear();               
+                Console.Clear();
+
+                if(listaClientes.Count() == 0)
+                {
+                    ultimoId = 1;
+                }
+                else
+                {
+                    ultimoId = listaClientes.Last().IdCliente + 1 ;
+                }
+                
 
                 client = new Cliente
                 {
-                    IdCliente = listaClientes.Last().IdCliente + 1,
+                    IdCliente = ultimoId,
                     Cpf = cpf,
                     Nome = nome,
                     DataNascimento = data,
@@ -170,7 +180,7 @@ namespace Exercicio_5by5
             //FUNCAO CRIADA PARA FAZER O CADASTRO DE LIVROS
             string isbn, titulo, genero, autor;
             int contador = 0;
-            long numtombo = 1;
+            long numTombo;
             DateTime dataPublicacao;
 
 
@@ -204,10 +214,18 @@ namespace Exercicio_5by5
                 Livro book = new Livro();
 
                 
+                if(listaLivros.Count == 0)
+                {
+                    numTombo = 1;
+                }
+                else
+                {
+                    numTombo = listaLivros.Last().NumeroTombo + 1;
+                }
 
                 book = new Livro
                 {
-                    NumeroTombo = listaLivros.Last().NumeroTombo + 1,
+                    NumeroTombo = numTombo,
                     ISBN = isbn,
                     Titulo = titulo,
                     Genero = genero,
