@@ -1,0 +1,110 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN+PQpEBz2T0/3VQqDN1l4+",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/VitorFaccio1/Biblioteca__5by5/blob/main/PedraPapelTesoura\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import random;\n",
+        "from IPython.display import clear_output\n",
+        "\n",
+        "while True:\n",
+        "  input(\"\\nPressione ENTER para continuar\");\n",
+        "\n",
+        "  clear_output();\n",
+        "\n",
+        "  option = int(input(\"\\nInsira pedra(1), papel(2), tesoura(3) ou sair(4): \"));\n",
+        "\n",
+        "  if(option == 4):\n",
+        "    print(\"Saindo....\");\n",
+        "    break;\n",
+        "\n",
+        "  option2 = random.randint(1, 3)\n",
+        "\n",
+        "  print(\"\\nVoce escolheu escolheu: \", \"Pedra\\n\" if option == 1 else \"Papel\\n\" if option == 2 else \"Tesoura\\n\");\n",
+        "  print(\"O computador escolheu: \", \"Pedra\\n\" if option2 == 1 else \"Papel\\n\" if option2 == 2 else \"Tesoura\\n\");\n",
+        "\n",
+        "  if(option > 3 or option < 0):\n",
+        "    print(\"Escolha uma opção valida!\");\n",
+        "    continue;\n",
+        "  elif(option == option2):\n",
+        "    print(\"Empate\");\n",
+        "  else:\n",
+        "    if(option == 1):\n",
+        "      if(option2 == 2):\n",
+        "        print(\"Voce Perdeu\");\n",
+        "      else:\n",
+        "        print(\"Voce Ganhou\");\n",
+        "\n",
+        "    elif(option == 2):\n",
+        "      if(option2 == 1):\n",
+        "        print(\"Voce Ganhou\");\n",
+        "      else:\n",
+        "        print(\"Voce Perdeu\");\n",
+        "\n",
+        "    else:\n",
+        "      if(option2 == 1):\n",
+        "        print(\"Voce Perdeu\");\n",
+        "      else:\n",
+        "        print(\"Voce Ganhou\");"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2o9332hkpLdM",
+        "outputId": "3b59128b-1e9e-4f1f-bd8c-c95a8c048b43"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "Insira pedra(1), papel(2), tesoura(3) ou sair(4): 3\n",
+            "\n",
+            "Voce escolheu escolheu:  Tesoura\n",
+            "\n",
+            "O computador escolheu:  Papel\n",
+            "\n",
+            "Voce Ganhou\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Yh0LDKyUuWON"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
